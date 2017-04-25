@@ -1,0 +1,42 @@
+{
+   "coord":{
+      "lon":20.15,
+      "lat":46.25
+   },
+   "weather":[
+      {
+         "id":803,
+         "main":"Clouds",
+         "description":"broken clouds",
+         "icon":"04n"
+      }
+   ],
+   "base":"stations",
+   "main":{
+      "temp":-0.01,
+      "pressure":1034,
+      "humidity":86,
+      "temp_min":-1,
+      "temp_max":1
+   },
+   "visibility":10000,
+   "wind":{
+      "speed":2.1,
+      "deg":360
+   },
+   "clouds":{
+      "all":75
+   },
+   "dt":1479179700,
+   "sys":{
+      "type":1,
+      "id":5732,
+      "message":0.0024,
+      "country":"HU",
+      "sunrise":1479188465,
+      "sunset":1479222392
+   },
+   "id":715429,
+   "name":"Szeged",
+   "cod":200
+}

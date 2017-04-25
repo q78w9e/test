@@ -10,28 +10,6 @@
 * IBM - Initial Contribution
 *******************************************************************************/
 
-var subscribeTopic = "";
-
-var Realtime = function(orgId, api_key, auth_token) {
-
-	var firstMessage = true;
-
-	var clientId="a:"+orgId+":" +Date.now();
-
-	console.log("clientId: " + clientId);
-	var hostname = orgId+".messaging.internetofthings.ibmcloud.com";
-	var client;
-
-	var typeID;
-	var deviceID;
-
-	this.initialize = function(){
-
-		client = new Messaging.Client(hostname, 8883,clientId);
-
-		// Initialize the Realtime Graph
-		var rtGraph = new RealtimeGraph();
-		client.onMessageArrived = function(msg) {
 			var topic = msg.destinationName;
 			console.log("topic: " + topic);
 			
